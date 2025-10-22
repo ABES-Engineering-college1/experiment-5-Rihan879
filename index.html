@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="./submit.html" target="_blank" method="post"></form>
+    <fieldset>
+        <h2><center>Student Registration Form</center></h2>
+        <hr><label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your full name" required/>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter valid email address" required/>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="pass" id="pass" required/>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" required/><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" required/><label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other" required/><label for="other">Other</label>
+        <br><br>
+        <label for="sel">Course:</label>
+        <select name="sel" id="sel" required>
+         <option value="">..Select Course..</option>   
+        <option value="computer science and engineering (CSE)">Computer Science and Engineering (CSE)</option>
+        <option value="CS in data science">CS in Data Science</option>
+        <option value="CS in AI and ML">CS in AI and ML</option>
+        <option value="electronics and comminucation engineering">Electronics and Comminucation Engineering</option>
+        <option value="electrical engineering">Electrical Engineering</option>
+        <option value="mechanical engineering">Mechanical Engineering</option>
+        <option value="civi engineering">Civil Engineering</option>
+        </select>
+        <br><br>
+        <label for="phone">Contact No.:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter Phone Number" required/>
+        <br><br>
+        <label for="address"><p>Address:</p></label>
+        <textarea name="add" id="add" rows="4" cols="30" placeholder="Enter your address" required></textarea>
+        <br><br>
+        <button>Register</button>
+        <button>Clear</button></hr>
+        <br><br>
+        <hr><center><p>&copy 2025 Student Registration Portal</p></center></hr>
+
+
+    </fieldset>
+</body>
+</html
